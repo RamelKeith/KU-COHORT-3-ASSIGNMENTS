@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML commands</title>
+
+    <style>
+        th{
+            text-align: center;
+        }
+
+        .attribute{
+            text-align: center;
+        }
+
+        .aescription{
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>
+        HTML Commands:
+    </h1>
+    
+    <dl>
+    <dt>
+        <b>
+            &lt;img&gt;
+        </b>
+    </dt>
+    <ul>
+        <dd>purpose:embeds an image into the document</dd>
+        <dd>example: &lt;img src="../fluffy_cat.jpg" height="20%" alt="sweet fluffy cat"&gt;</dd>
+        <dd>attributes:</dd>
+    </ul>
+    
+    <table border="1" cellpadding="5">
+        <tr>
+            <th>
+                Attribute
+            </th>
+            <th>
+                Values
+            </th>
+            <th>
+                Meaning
+            </th>
+        </tr>
+        <tr>
+            <td class="attribute">
+                src
+            </td>
+            <td class="description">
+                URL
+            </td>
+            <td class="description">
+                source file
+            </td>
+        </tr>
+        <tr>
+            <td class="attribute">
+                height
+            </td>
+            <td class="description">
+                number, percentage
+            </td>
+            <td class="description">
+                The intrinsic height of the image, in pixels. Must be an integer without a unit
+            </td>
+        </tr>
+        <tr>
+            <td class="attribute">
+                width
+            </td>
+            <td class="description">
+                number, percentage
+            </td>
+            <td class="description">
+                The intrinsic height of the image, in pixels. Must be an integer without a unit
+            </td>
+        </tr>
+        <tr>
+            <td class="attribute">
+                alt
+            </td>
+            <td class="description">
+                text
+            </td>
+            <td class="description">
+                Defines an alternative text description of the image.
+            </td>
+        </tr>
+    </dl>
+    </table>
+    <br>
+
+    <dt>
+        <b>
+            &lt;a&gt;, &lt;/a&gt;
+        </b>
+    </dt>
+    <ul>
+        <dd>purpose: anchor element, creates a <a href="https://www.w3schools.com/html/html_links.asp">hyperlink</a> to web pages, files, email addresses, locations in the same page, or anything else a URL can address</dd>
+        <dd>example: &lt;a href="https://en.wikipedia.org/wiki/Cat" >Wiki Cats&gt; </dd>
+        <dd>attributes: </dd>
+    </ul>
+
+    <table border="1" cellpadding="5">
+        <tr>
+            <th>
+                Attribute
+            </th>
+            <th>
+                Values
+            </th>
+            <th>
+                Meaning
+            </th>
+        </tr>
+        <tr>
+            <td class="attribute">
+                href
+            </td>
+            <td class="description">
+                URL
+            </td>
+            <td class="description">
+                The URL that the hyperlink points to.
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="5" class="attribute">
+                target
+            </td>
+            <td class="description">
+                name_of_frame
+            </td>
+            <td class="description">
+                Where to display the linked URL, as the name for a browsing context (a tab, window, or &lt;iframe&gt;).
+            </td>
+        </tr>
+        <tr>
+            <td class="description">
+                _blank
+            </td>
+            <td class="description">
+                usually a new tab, but users can configure browser to open a new window instead.
+            </td>
+            <tr>
+                <td class="description">
+                    _parent
+                </td>
+                <td class="description">
+                    the parent browsing context of the current one. If no parent, behaves as _self.
+                </td>
+        </tr>
+        <tr>
+            <td class="description">
+                _top
+            </td>
+            <td class="description">
+                the topmost browsing context (the "highest" that is an ancestor of the current one.) If no ancestors, behaves as _self.
+            </td>
+        </tr>
+        <tr>
+            <td class="description">
+                _self
+            </td>
+            <td class="description">
+                the current browsing context (Default).
+            </td>
+        </tr>
+    </table>
+    <br>
+
+    <dt>
+        <b>
+            &lt;p&gt;, &lt;/p&gt;
+        </b>
+    </dt>
+    <ul>
+        <dd>purpose: new paragraph</dd>
+        <dd>attributes:</dd>
+    </ul>
+
+    <table border="1" cellpadding="5">
+        <tr>
+            <th>
+                Attribute
+            </th>
+            <th>
+                Values
+            </th>
+            <th>
+                Meaning
+            </th>
+        </tr>
+        <tr>
+            <td class="attribute">
+                This element only includes the global attributes.
+                <br>
+                Note: The align attribute on &lt;p&gt; tags is obsolete and shouldn't be used.
+            </td>
+            <td class="description">
+
+            </dd>
+            <td class="description">
+
+            </dd>
+        </tr>
+    </table>
+</body>
+</html>
