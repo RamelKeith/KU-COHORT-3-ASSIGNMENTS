@@ -1,42 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
-
-body {
-    background-image: url(./Images/old-paper.png ); 
-    background-repeat: no-repeat;
-    background-position: center;
-    font-family: 'Rye', cursive;
-    font-size: 12px;
-    text-align: center;
-    margin: 5rem;
+.responsive {
+    font-size: 3vw;
 }
 
-
-.odd {
-    margin: 0rem;
-    font-size: 3rem;
-}
-
-.reward {
-    margin-bottom: 3rem ;
-}
-
-.even {
-    margin-top: 1rem;
-    margin-bottom: 2rem;
-    font-size: 1.5rem;
-}
-
-.even-title {
-    margin: 1rem;
-    font-size: 3rem;
-}
-
-.title {
-    margin: 2px;
-    font-size: 5rem;
-    letter-spacing: .5rem;
-}
-
-img {
-    width: 15rem;
+.chihuahua {
+    width: 30%;
 }
